@@ -34,11 +34,11 @@ const tipsData = [
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
         icon: assets['realestate'],
     },
-    // {
-    //     title: 'Gold is up 20%',
-    //     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-    //     icon: assets['gold'],
-    // },
+    {
+        title: 'Gold is up 20%',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+        icon: assets['gold'],
+    },
 ];
 
 const StocksAndTips = () => {
