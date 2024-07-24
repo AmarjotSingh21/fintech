@@ -5,4 +5,12 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   base:"/fintech/",
   plugins: [react()],
+  optimizeDeps: {
+    include: ['chart.js'] // Include chart.js for Vite to optimize
+  },
+  build: {
+    rollupOptions: {
+      external: ['chart.js']
+    }
+  }
 })
